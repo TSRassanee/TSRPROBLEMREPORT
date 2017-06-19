@@ -158,7 +158,7 @@ String QQ=Description;
                 bimage = BitmapFactory.decodeStream(in);
 
             } catch (Exception e) {
-                Log.e("Error Message", e.getMessage());
+                Log.e("Error MessDDDage", e.getMessage());
                 e.printStackTrace();
             }
             return bimage;
