@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tsr.tsrproblemreport">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.UI_LOGIN">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:label="@string/activity_title_about_us" />
+
+
+
+
+        <activity
+            android:name=".recycleviewuseruser.UI_CARDVIEW_SALE_USER_user"
+            android:label="@string/activity_title_about_us" />
+
+        <activity
+            android:name=".activity.UI_PROBLEM_ALARM"
+            android:label="@string/activity_title_about_us" />
+
+
+        <activity
+            android:name=".recycleviewuseruser.UI_CARDVIEW_SALELEADER_USER_user"
+            android:label="@string/activity_title_about_us" />
+        <activity
+            android:name=".recycleviewuseruser.UI_CARDVIEW_SUPERVISOR_USER_user"
+            android:label="@string/activity_title_about_us" />
+        <activity
+            android:name=".recycleviewuseruser.UI_CARDVIEW_LINE_USER_user"
+            android:label="@string/activity_title_about_us" />
+        <activity
+            android:name=".recycleviewuseruser.UI_CARDVIEW_DEPART_USER_user"
+            android:label="@string/activity_title_about_us" />
+
+
+
+
+
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:label="@string/activity_title_about_us" />
+
+        <activity
+            android:name=".MusicActivity"
+            android:label="@string/title_activity_music"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MusicActivity2"
+            android:label="@string/title_activity_music"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MusicActivity3"
+            android:label="@string/title_activity_music"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MusicActivity4"
+            android:label="@string/title_activity_music"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MusicActivity5"
+            android:label="@string/title_activity_music"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.UI_SHOW_PROBLEM" />
+        <activity android:name=".activity.UI_SHOW_PROBLEM_SALELEADER" />
+        <activity android:name=".activity.UI_SHOW_PROBLEM_SUPERVISOR" />
+        <activity android:name=".activity.UI_SHOW_PROBLEM_LINE" />
+        <activity android:name=".activity.UI_SHOW_PROBLEM_DEPART" />
+
+
+
+
+
+        <!-- Firebase Notifications -->
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+    </application>
+
+</manifest>

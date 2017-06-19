@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/one" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="หน้าหลัก" />
+    </group>
+
+    <group android:id="@+id/two" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="แยก user" />
+    </group>
+
+    <group android:id="@+id/three" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_report1"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title=" ปัญหาที่แก้ไขแล้ว" />
+    </group>
+    <group android:id="@+id/froe" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_report2"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title=" ปัญหาที่แก้ไขแล้ว" />
+    </group>
+    <item android:title="อื่นๆ">
+        <menu>
+            <group android:id="@+id/one5" android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="เกี่ยวกับ" /></group>
+            <group android:id="@+id/one6" android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="นโยบายส่วนตัว" /></group>
+
+        </menu>
+    </item>
+
+    <item android:title="บันชีของฉัน">
+        <menu>
+            <group android:id="@+id/one2" android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="โปรไฟท์" /></group>
+            <group android:id="@+id/one3" android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="ตั้งค่า" /></group>
+            <group android:id="@+id/one4" android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="ออกจากระบบ" /></group>
+        </menu>
+    </item>
+
+</menu>

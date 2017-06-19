@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="85dip"
+    android:background="@color/colorLighter"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lbl_masseger"
+        android:layout_toEndOf="@+id/lbl_masseger"
+        android:layout_toRightOf="@+id/lbl_masseger"
+        android:text=". . ."
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignLeft="@+id/lbl_time"
+
+        android:layout_alignStart="@+id/lbl_time"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_circle"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="@android:color/white"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/lbl_sale"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_time"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/VollyNetworkImageView1"
+        android:layout_toRightOf="@+id/VollyNetworkImageView1"
+        android:text="นาย อัสนี แหวนหล่อ"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="12:00:30"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/lblposition"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        android:layout_below="@+id/count"
+        android:layout_alignLeft="@+id/lbl_sale"
+        android:layout_alignStart="@+id/lbl_sale" />
+
+    <LinearLayout
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_masseger"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        android:textSize="8sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/lblposition"
+        android:layout_toEndOf="@+id/lblposition" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/VollyNetworkImageView1"
+        android:layout_width="75dp"
+        android:layout_height="75dip"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/number"
+        android:layout_toRightOf="@+id/number"
+        android:background="@drawable/bg_circle"
+        android:src="@mipmap/ic_launcher" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "69515975294",
+    "firebase_url": "https://navigationdrawer-c824f.firebaseio.com",
+    "project_id": "navigationdrawer-c824f",
+    "storage_bucket": "navigationdrawer-c824f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69515975294:android:5bce9f3a5da08a35",
+        "android_client_info": {
+          "package_name": "com.tsr.tsrproblemreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69515975294-lo4v5l27ooedsp5mipve6unbg9m4diva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAogcguub4ZbkG47oS_F-keTdU3l9AhV6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
